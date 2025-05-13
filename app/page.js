@@ -18,12 +18,12 @@ export default function Home() {
       setCurrentSlide((prev) => (prev + 1) % slidesData.length);
     }, 8000); // Change slide every 8 seconds
     return () => clearInterval(interval); // Cleanup interval on unmount
-  }, [slidesData.length]);
+  }, []);
 
   return (
     <div>
       {/* Introduction Section */}
-      <section className="flex flex-col md:flex-row items-start justify-between mb-12">
+      <section className="flex flex-col md:flex-row items-start justify-between mb-0">
         {/* Left: Description */}
         <div className="md:w-1/2 mb-6 md:mb-0">
           <h1 className="text-4xl font-bold text-purple-lsue mb-4">
@@ -36,7 +36,7 @@ export default function Home() {
 
         {/* Right: Circular Photo Collage */}
         <div className="w-full md:w-1/2 flex justify-center items-start p-4">
-          <div className="relative w-full aspect-square max-w-2xl">
+          <div className="relative w-full aspect-square max-w-xl">
             <div
               className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
               style={{ top: '3%', left: '10%' }}
@@ -90,27 +90,19 @@ export default function Home() {
       </section>
 
       {/* Slideshow Section */}
-      <section className="mb-12 mt-12">
-        <div className="relative w-full max-w-4xl mx-auto">
-          <div className="overflow-hidden rounded-lg">
-            <div
-              className="flex transition-opacity duration-1000 ease-in-out relative"
-              style={{ opacity: 1 }}
-            >
-              <Image
-                src={slidesData[currentSlide].src}
-                alt={slidesData[currentSlide].caption}
-                width={1600}
-                height={900}
-                layout="responsive"
-                className="w-full object-contain md:h-96 md:object-cover"
-              />
-              {/* Caption overlay */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gray-800 opacity-70 py-2">
-                <p className="text-center text-white text-sm">
-                  {slidesData[currentSlide].caption}
-                </p>
-              </div>
+      <section className="mb-12">
+        <div className="w-full max-w-4xl mx-auto">
+          <div className="relative w-full pt-[56.25%] overflow-hidden rounded-lg">
+            <Image
+              src={slidesData[currentSlide].src}
+              alt={slidesData[currentSlide].caption}
+              fill
+              className="object-cover"
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-gray-800 bg-opacity-70 py-2">
+              <p className="text-center text-white text-sm">
+                {slidesData[currentSlide].caption}
+              </p>
             </div>
           </div>
         </div>
