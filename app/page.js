@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import newsData from '../data/news.json';
 import slidesData from '../data/slides.json';
 import { useState, useEffect } from 'react';
@@ -34,31 +35,57 @@ export default function Home() {
         </div>
 
         {/* Right: Circular Photo Collage */}
-        <div className="w-full md:w-1/2 flex justify-center relative h-80 md:h-80">
-          <img
-            src="/images/intro1.png"
-            alt="intro 1"
-            className="photo-collage absolute w-36 h-36 md:w-43 md:h-43 rounded-full border-4 border-transparent"
-            style={{ top: '10%', left: '10%' }}
-          />
-          <img
-            src="/images/intro2.png"
-            alt="intro 2"
-            className="photo-collage absolute w-36 h-36 md:w-43 md:h-43 rounded-full border-4 border-transparent"
-            style={{ top: '50%', left: '50%' }}
-          />
-          <img
-            src="/images/intro3.png"
-            alt="intro 3"
-            className="photo-collage absolute w-36 h-36 md:w-43 md:h-43 rounded-full border-4 border-transparent"
-            style={{ top: '10%', left: '40%' }}
-          />
-          <img
-            src="/images/intro4.png"
-            alt="intro 4"
-            className="photo-collage absolute w-36 h-36 md:w-43 md:h-43 rounded-full border-4 border-transparent"
-            style={{ top: '50%', left: '20%' }}
-          />
+        <div className="w-full md:w-1/2 flex justify-center items-center p-4">
+          <div className="relative w-full aspect-square max-w-lg">
+            <div
+              className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+              style={{ top: '10%', left: '10%' }}
+            >
+              <Image
+                src="/images/intro1.png"
+                alt="Workforce Augmentation Lab research example 1"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-full"
+              />
+            </div>
+            <div
+              className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+              style={{ top: '50%', left: '50%' }}
+            >
+              <Image
+                src="/images/intro2.png"
+                alt="Workforce Augmentation Lab research example 2"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-full"
+              />
+            </div>
+            <div
+              className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+              style={{ top: '10%', left: '40%' }}
+            >
+              <Image
+                src="/images/intro3.png"
+                alt="Workforce Augmentation Lab research example 3"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-full"
+              />
+            </div>
+            <div
+              className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+              style={{ top: '50%', left: '20%' }}
+            >
+              <Image
+                src="/images/intro4.png"
+                alt="Workforce Augmentation Lab research example 4"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-full"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -70,9 +97,12 @@ export default function Home() {
               className="flex transition-opacity duration-1000 ease-in-out relative"
               style={{ opacity: 1 }}
             >
-              <img
+              <Image
                 src={slidesData[currentSlide].src}
                 alt={slidesData[currentSlide].caption}
+                width={1600}
+                height={900}
+                layout="responsive"
                 className="w-full object-contain md:h-96 md:object-cover"
               />
               {/* Caption overlay */}
