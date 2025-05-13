@@ -34,57 +34,51 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Right: Circular Photo Collage */}
-        <div className="w-full md:w-1/2 flex justify-center items-start p-4">
-          <div className="relative w-full aspect-square max-w-xl">
-            <div
-              className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-              style={{ top: '3%', left: '10%' }}
-            >
-              <Image
-                src="/images/intro1.png"
-                alt="Workforce Augmentation Lab research example 1"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full"
-              />
-            </div>
-            <div
-              className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-              style={{ top: '32%', left: '50%' }}
-            >
-              <Image
-                src="/images/intro2.png"
-                alt="Workforce Augmentation Lab research example 2"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full"
-              />
-            </div>
-            <div
-              className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-              style={{ top: '3%', left: '40%' }}
-            >
-              <Image
-                src="/images/intro3.png"
-                alt="Workforce Augmentation Lab research example 3"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full"
-              />
-            </div>
-            <div
-              className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-              style={{ top: '32%', left: '20%' }}
-            >
-              <Image
-                src="/images/intro4.png"
-                alt="Workforce Augmentation Lab research example 4"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full"
-              />
-            </div>
+        {/* Right: Photo Collage */}
+        <div className="relative w-full max-w-xl aspect-square mx-auto">
+          <div
+            className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+            style={{ top: '3%', left: '10%' }}
+          >
+            <Image
+              src="/images/intro1.png"
+              alt="Workforce Augmentation Lab research example 1"
+              fill
+              className="object-cover rounded-full"
+            />
+          </div>
+          <div
+            className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+            style={{ top: '32%', left: '50%' }}
+          >
+            <Image
+              src="/images/intro2.png"
+              alt="Workforce Augmentation Lab research example 2"
+              fill
+              className="object-cover rounded-full"
+            />
+          </div>
+          <div
+            className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+            style={{ top: '3%', left: '40%' }}
+          >
+            <Image
+              src="/images/intro3.png"
+              alt="Workforce Augmentation Lab research example 3"
+              fill
+              className="object-cover rounded-full"
+            />
+          </div>
+          <div
+            className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+            style={{ top: '32%', left: '20%' }}
+          >
+            <Image
+              src="/images/intro4.png"
+              alt="Workforce Augmentation Lab research example 4"
+              fill
+              className="object-cover rounded-full"
+            />
           </div>
         </div>
       </section>
