@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div>
       {/* Introduction Section */}
-      <section className="flex flex-col md:flex-row items-center justify-between mb-12">
+      <section className="flex flex-col md:flex-row items-start justify-between mb-12">
         {/* Left: Description */}
         <div className="md:w-1/2 mb-6 md:mb-0">
           <h1 className="text-4xl font-bold text-purple-lsue mb-4">
@@ -35,11 +35,11 @@ export default function Home() {
         </div>
 
         {/* Right: Circular Photo Collage */}
-        <div className="w-full md:w-1/2 flex justify-center items-center p-4">
-          <div className="relative w-full aspect-square max-w-lg">
+        <div className="w-full md:w-1/2 flex justify-center items-start p-4">
+          <div className="relative w-full aspect-square max-w-2xl">
             <div
               className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-              style={{ top: '10%', left: '10%' }}
+              style={{ top: '3%', left: '10%' }}
             >
               <Image
                 src="/images/intro1.png"
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div
               className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-              style={{ top: '40%', left: '50%' }}
+              style={{ top: '32%', left: '50%' }}
             >
               <Image
                 src="/images/intro2.png"
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <div
               className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-              style={{ top: '10%', left: '40%' }}
+              style={{ top: '3%', left: '40%' }}
             >
               <Image
                 src="/images/intro3.png"
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
             <div
               className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-              style={{ top: '40%', left: '20%' }}
+              style={{ top: '32%', left: '20%' }}
             >
               <Image
                 src="/images/intro4.png"
