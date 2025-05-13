@@ -1,0 +1,109 @@
+/* Import Public Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+/* Import Kanit Medium 500 from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+/* Import Tailwind CSS */
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --foreground-secondary: #d1d5db; /* gray-300 for dark mode */
+  --purple-lsue: #A492C6; /* Lighter LSUE Purple for dark mode */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html, body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Public Sans', Arial, Helvetica, sans-serif;
+}
+
+/* Minimal CSS reset */
+html, body {
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Ensure consistent box-sizing */
+}
+
+/* Ensure all elements inherit box-sizing */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Animated gradient styles */
+.animated-gradient {
+  overflow: hidden;
+}
+
+.animated-gradient::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    transparent 20%,
+    rgba(253, 208, 35, 0.2) 40%, /* LSUE Gold with low opacity */
+    transparent 60%,
+    rgba(70, 29, 124, 0.3) 80%, /* LSUE Purple with slightly higher opacity */
+    transparent 100%
+  );
+  background-size: 300% 300%;
+  animation: shimmer 8s infinite ease-in-out;
+  z-index: 0;
+}
+
+.animated-gradient > * {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.group:hover {
+  color: #A492C6; /* Lighter LSUE Purple shade for hover */
+  transition: color 0.3s ease;
+}
+
+/* Photo collage styles */
+.photo-collage {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+/* Custom text color classes */
+.text-purple-lsue {
+  color: var(--purple-lsue);
+}
+
+.text-foreground-secondary {
+  color: var(--foreground-secondary);
+}
+
+/* Kanit font utility class */
+.font-kanit-medium {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-size: 1.22rem;
+  line-height: 1.5;
+}

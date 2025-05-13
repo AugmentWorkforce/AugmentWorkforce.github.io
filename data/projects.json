@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Enter project title",
+    "focus": "Main research area or topic (e.g., AI, Robotics, NLP)",
+    "description": "Brief description of the project.",
+    "images": [
+      "/images/projects/project1a.jpg",
+      "/images/projects/project1b.jpg",
+      "/images/projects/project1c.jpg"
+    ]
+  },
+  {
+    "title": "Enter project title",
+    "focus": "Main research area or topic",
+    "description": "Brief description of the project.",
+    "images": [
+      "/images/projects/project2.jpg"
+    ]
+  },
+  {
+    "title": "Enter project title",
+    "focus": "Main research area or topic",
+    "description": "Brief description of the project.",
+    "images": [
+      "/images/projects/project3a.jpg",
+      "/images/projects/project3b.jpg"
+    ]
+  },
+  {
+    "title": "Enter project title",
+    "focus": "Main research area or topic",
+    "description": "Brief description of the project.",
+    "images": [
+      "/images/projects/project4.jpg"
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "category": "Faculty",
+    "name": "Full Name",
+    "position": "Position or Role",
+    "bio": "Short professional bio.",
+    "photo": "/images/people/filename.jpg",
+    "website": "https://yourwebsite.com",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "googleScholar": "https://scholar.google.com/citations?user=YourID",
+    "cv": "/pdfs/cv/your_cv.pdf",
+    "order": 1
+  },
+  {
+    "category": "Ph.D. Students",
+    "name": "Full Name",
+    "position": "Ph.D. Student",
+    "bio": "Research focus or area.",
+    "photo": "/images/people/filename.jpg",
+    "order": 1,
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "googleScholar": "https://scholar.google.com/citations?user=YourID",
+    "website": "https://yourwebsite.com",
+    "cv": "/pdfs/cv/your_cv.pdf"
+  },
+  {
+    "category": "Ph.D. Students",
+    "name": "Full Name",
+    "position": "Ph.D. Student",
+    "bio": "Research focus or area.",
+    "photo": "/images/people/filename.jpg",
+    "order": 2
+  },
+  {
+    "category": "Ph.D. Students",
+    "name": "Full Name",
+    "position": "Ph.D. Student",
+    "bio": "Research focus or area.",
+    "photo": "/images/people/filename.jpg",
+    "order": 3,
+    "linkedin": "https://linkedin.com/in/yourprofile"
+  },
+  {
+    "category": "Master's Students",
+    "name": "Full Name",
+    "position": "Master's Student",
+    "bio": "Research focus or area.",
+    "photo": "/images/people/filename.jpg",
+    "order": 1
+  },
+  {
+    "category": "Master's Students",
+    "name": "Full Name",
+    "position": "Master's Student",
+    "bio": "Research focus or area.",
+    "photo": "/images/people/filename.jpg",
+    "order": 2,
+    "cv": "/pdfs/cv/your_cv.pdf"
+  },
+  {
+    "category": "Master's Students",
+    "name": "Full Name",
+    "position": "Master's Student",
+    "bio": "Research focus or area.",
+    "photo": "/images/people/filename.jpg",
+    "order": 3,
+    "website": "https://yourwebsite.com"
+  },
+  {
+    "category": "Alumni",
+    "name": "Full Name",
+    "degree": "Ph.D.",
+    "year": "Year",
+    "affiliations": ["Affiliation 1"]
+  },
+  {
+    "category": "Alumni",
+    "name": "Full Name",
+    "degree": "Master's",
+    "year": "Year",
+    "affiliations": ["Affiliation 1", "Affiliation 2"]
+  },
+  {
+    "category": "Alumni",
+    "name": "Full Name",
+    "degree": "Ph.D.",
+    "year": "Year",
+    "affiliations": ["Affiliation 1"]
+  }
+]

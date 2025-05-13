@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Enter publication title",
+    "authors": "Author One, Author Two",
+    "journal": "Enter journal name (if applicable)",
+    "year": "Year",
+    "doi": "https://doi.org/your-doi-here",
+    "abstract": "Enter abstract or short summary of the publication.",
+    "bibtex": "@article{yourkey,\n  title={Enter publication title},\n  author={Author One and Author Two},\n  journal={Journal Name},\n  year={Year},\n  doi={10.xxxx/xxxxxx}\n}"
+  },
+  {
+    "title": "Enter publication title",
+    "authors": "Author One, Author Two",
+    "conference": "Enter conference name (if applicable)",
+    "year": "Year",
+    "doi": "https://doi.org/your-doi-here",
+    "abstract": "Enter abstract or short summary of the publication.",
+    "bibtex": "@inproceedings{yourkey,\n  title={Enter publication title},\n  author={Author One and Author Two},\n  booktitle={Conference Name},\n  year={Year},\n  doi={10.xxxx/xxxxxx}\n}"
+  },
+  {
+    "title": "Enter publication title",
+    "authors": "Author One, Author Two",
+    "journal": "Enter journal name (if applicable)",
+    "year": "Year",
+    "doi": "https://doi.org/your-doi-here",
+    "abstract": "Enter abstract or short summary of the publication.",
+    "bibtex": "@article{yourkey,\n  title={Enter publication title},\n  author={Author One and Author Two},\n  journal={Journal Name},\n  year={Year},\n  doi={10.xxxx/xxxxxx}\n}"
+  },
+  {
+    "title": "Enter publication title",
+    "authors": "Author One, Author Two",
+    "conference": "Enter conference name (if applicable)",
+    "year": "Year",
+    "doi": "https://doi.org/your-doi-here",
+    "abstract": "Enter abstract or short summary of the publication.",
+    "bibtex": "@inproceedings{yourkey,\n  title={Enter publication title},\n  author={Author One and Author Two},\n  booktitle={Conference Name},\n  year={Year},\n  doi={10.xxxx/xxxxxx}\n}"
+  }
+]

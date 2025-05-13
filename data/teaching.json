@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Enter course title",
+    "description": "Enter course description.",
+    "semester": "Semester and Year (e.g., Fall 2024)",
+    "photos": [
+      "/images/teaching/photo1.jpg",
+      "/images/teaching/photo2.jpg",
+      "/images/teaching/photo3.jpg"
+    ]
+  },
+  {
+    "title": "Enter course title",
+    "description": "Enter course description.",
+    "semester": "Semester and Year",
+    "photos": [
+      "/images/teaching/photo1.jpg"
+    ]
+  }
+]
