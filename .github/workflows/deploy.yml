@@ -14,7 +14,6 @@ jobs:
           version: 8
       - run: npm install
       - run: npm run build
-      - run: npm run export
       - name: Publish
         uses: peaceiris/actions-gh-pages@v4
         with:
