@@ -1,16 +1,18 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Image from 'next/image';
 
 export default function TeachingItem({ course }) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const photos = Array.isArray(course.photos)
-    ? course.photos
-    : course.photo
-    ? [course.photo]
-    : [];
+  const photos = useMemo(() => {
+    return Array.isArray(course.photos)
+      ? course.photos
+      : course.photo
+      ? [course.photo]
+      : [];
+  }, [course.photos, course.photo]);
 
   useEffect(() => {
     if (photos.length > 1) {

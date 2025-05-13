@@ -1,17 +1,19 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Image from 'next/image';
 
 export default function ResearchProject({ project }) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Ensure we always have an array
-  const images = Array.isArray(project.images)
-    ? project.images
-    : project.image
-    ? [project.image]
-    : [];
+  const images = useMemo(() => {
+    return Array.isArray(project.images)
+      ? project.images
+      : project.image
+      ? [project.image]
+      : [];
+  }, [project.images, project.image]);
 
   // Auto-advance only when there's more than one
   useEffect(() => {
