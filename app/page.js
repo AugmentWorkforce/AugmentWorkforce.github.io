@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div
               className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-              style={{ top: '50%', left: '50%' }}
+              style={{ top: '40%', left: '50%' }}
             >
               <Image
                 src="/images/intro2.png"
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
             <div
               className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-              style={{ top: '50%', left: '20%' }}
+              style={{ top: '40%', left: '20%' }}
             >
               <Image
                 src="/images/intro4.png"
