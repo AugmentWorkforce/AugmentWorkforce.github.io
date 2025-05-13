@@ -21,11 +21,11 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="px-4">
       {/* Introduction Section */}
-      <section className="flex flex-col md:flex-row items-start justify-between mb-0">
+      <section className="flex flex-col md:flex-row gap-6 items-start mb-12">
         {/* Left: Description */}
-        <div className="md:w-1/2 mb-6 md:mb-0">
+        <div className="flex-1">
           <h1 className="text-4xl font-bold text-purple-lsue mb-4">
             Workforce Augmentation Lab
           </h1>
@@ -85,8 +85,8 @@ export default function Home() {
 
       {/* Slideshow Section */}
       <section className="mb-12">
-        <div className="w-full max-w-4xl mx-auto">
-          <div className="relative w-full pt-[56.25%] overflow-hidden rounded-lg">
+        <div className="container mx-auto max-w-4xl">
+          <div className="relative w-full aspect-video overflow-hidden rounded-lg">
             <Image
               src={slidesData[currentSlide].src}
               alt={slidesData[currentSlide].caption}
