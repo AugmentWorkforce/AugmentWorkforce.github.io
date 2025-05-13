@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function ResearchProject({ project }) {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -29,10 +30,11 @@ export default function ResearchProject({ project }) {
       {/* Image / Slideshow */}
       <div className="w-full md:w-1/3">
         <div className="relative w-full aspect-video">
-          <img
+          <Image
             src={images.length > 1 ? images[currentSlide] : images[0]}
             alt={`${project.title} screenshot`}
-            className="absolute inset-0 w-full h-full object-cover rounded-lg"
+            fill
+            className="object-cover rounded-lg"
           />
         </div>
       </div>

@@ -1,11 +1,16 @@
+import Image from 'next/image';
+
 export default function Person({ member }) {
   return (
     <div className="bg-[#1a1a1a] p-4 rounded-lg shadow-md border-1 border-neutral-800">
-      <img
-        src={member.photo}
-        alt={member.name}
-        className="w-32 h-32 object-cover mb-4"
-      />
+      <div className="relative w-32 h-32 mb-4">
+        <Image
+          src={member.photo}
+          alt={member.name}
+          fill
+          className="object-cover rounded-lg"
+        />
+      </div>
       <h3 className="text-xl font-semibold text-white">{member.name}</h3>
       <p className="text-sm text-gray-400">{member.position}</p>
       <p className="text-foreground-secondary mt-2">{member.bio}</p>
