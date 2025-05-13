@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="px-4">
       {/* Introduction Section */}
-      <section className="flex flex-col md:flex-row gap-6 items-start mb-12">
+      <section className="flex flex-col md:flex-row gap-6 items-center mb-12">
         {/* Left: Description */}
         <div className="flex-1">
           <h1 className="text-4xl font-bold text-purple-lsue mb-4">
@@ -35,10 +35,10 @@ export default function Home() {
         </div>
 
         {/* Right: Photo Collage */}
-        <div className="relative w-full max-w-xl aspect-square mx-auto">
+        <div className="relative w-full max-w-xl aspect-[4/3] mx-auto">
           <div
             className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '3%', left: '10%' }}
+            style={{ top: '10%', left: '10%' }}
           >
             <Image
               src="/images/intro1.png"
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
           <div
             className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '32%', left: '50%' }}
+            style={{ top: '48%', left: '50%' }}
           >
             <Image
               src="/images/intro2.png"
@@ -60,7 +60,7 @@ export default function Home() {
           </div>
           <div
             className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '3%', left: '40%' }}
+            style={{ top: '10%', left: '40%' }}
           >
             <Image
               src="/images/intro3.png"
@@ -71,7 +71,7 @@ export default function Home() {
           </div>
           <div
             className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '32%', left: '20%' }}
+            style={{ top: '48%', left: '20%' }}
           >
             <Image
               src="/images/intro4.png"
@@ -84,7 +84,7 @@ export default function Home() {
       </section>
 
       {/* Slideshow Section */}
-      <section className="mb-12">
+      <section className="mb-12 mt-20">
         <div className="container mx-auto max-w-4xl">
           <div className="relative w-full aspect-video overflow-hidden rounded-lg">
             <Image
