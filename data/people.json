@@ -168,15 +168,6 @@
     "cv": "/pdfs/cv/your_cv.pdf"
   },
   {
-    "category": "Master's Students",
-    "name": "Full Name",
-    "position": "Master's Student",
-    "bio": "Research focus or area.",
-    "photo": "/images/people/filename.jpg",
-    "order": 1,
-    "website": "https://yourwebsite.com"
-  },
-  {
     "category": "Alumni",
     "name": "Full Name",
     "degree": "Ph.D.",

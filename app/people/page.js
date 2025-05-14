@@ -15,9 +15,9 @@ export default function People() {
       {/* Faculty Section */}
       <section className="mb-12">
         <h2 className="text-3xl font-bold text-purple-lsue mb-6 border-b-2 border-[#FDD023] inline-block">
-          Faculty
+          Director
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {faculty.map((member, index) => (
             <Person key={index} member={member} />
           ))}
@@ -29,7 +29,7 @@ export default function People() {
         <h2 className="text-3xl font-bold text-purple-lsue mb-6 border-b-2 border-[#FDD023] inline-block">
           Ph.D. Students
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {phdStudents.map((member, index) => (
             <Person key={index} member={member} />
           ))}
@@ -37,16 +37,18 @@ export default function People() {
       </section>
 
       {/* Master's Students Section */}
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-purple-lsue mb-6 border-b-2 border-[#FDD023] inline-block">
-        {"Master's Students"}
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {mastersStudents.map((member, index) => (
-            <Person key={index} member={member} />
-          ))}
-        </div>
-      </section>
+      {mastersStudents.length > 0 && (
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-purple-lsue mb-6 border-b-2 border-[#FDD023] inline-block">
+          {"Master's Students"}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+            {mastersStudents.map((member, index) => (
+              <Person key={index} member={member} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Alumni Section */}
       <section className="mb-12">
