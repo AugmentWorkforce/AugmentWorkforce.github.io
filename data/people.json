@@ -4,6 +4,7 @@
     "name": "Dr. Chao Wang",
     "position": "Associate Professor, Graduate Program Advisor",
     "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/chao.wang.jpg",
     "website": "https://yourwebsite.com",
     "linkedin": "https://www.linkedin.com/in/chao-wang-36258341",
@@ -15,7 +16,8 @@
     "category": "Ph.D. Students",
     "name": "Ehsan Ahmadi",
     "position": "Ph.D. Candidate",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Ehsan.Ahmadi.jpeg",
     "order": 1
   },
@@ -23,7 +25,8 @@
     "category": "Ph.D. Students",
     "name": "Sueed Willoughby",
     "position": "Ph.D. Candidate",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Sueed.jpg",
     "order": 2
   },
@@ -31,7 +34,8 @@
     "category": "Ph.D. Students",
     "name": "Fatemeh (Monica) Ghafari",
     "position": "Ph.D. Candidate",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Fatemeh.jpg",
     "order": 3
   },
@@ -39,7 +43,8 @@
     "category": "Ph.D. Students",
     "name": "Ehsan Shourangiz",
     "position": "Ph.D. Student",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Ehsan.Shou.jpg",
     "order": 4
   },
@@ -47,7 +52,8 @@
     "category": "Ph.D. Students",
     "name": "Obiora Odugu",
     "position": "Ph.D. Candidate",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/obi.jpeg",
     "order": 5
   },
@@ -55,7 +61,8 @@
     "category": "Ph.D. Students",
     "name": "Muhammad Tahir Khan",
     "position": "Ph.D. Student",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Khan.png",
     "order": 6
   },
@@ -63,7 +70,8 @@
     "category": "Ph.D. Students",
     "name": "Maryam Soleymani",
     "position": "Ph.D. Student",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Maryam.png",
     "order": 7
   },
@@ -71,7 +79,8 @@
     "category": "Ph.D. Students",
     "name": "Mahdi Bonyaniakbarabadi",
     "position": "Ph.D. Student",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Mahdi.png",
     "order": 8
   },
@@ -79,7 +88,8 @@
     "category": "Ph.D. Students",
     "name": "Asif Faisal Chowdhury",
     "position": "Ph.D. Student",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Asif.png",
     "order": 9
   },
@@ -87,7 +97,8 @@
     "category": "Ph.D. Students",
     "name": "Ifeoluwa (Ben) Oluleye",
     "position": "Ph.D. Student",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Ben.jpeg",
     "order": 10
   },
@@ -95,7 +106,8 @@
     "category": "Ph.D. Students",
     "name": "Mona Mansouri",
     "position": "Ph.D. Student",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Mona.jpg",
     "order": 11
   },
@@ -103,7 +115,8 @@
     "category": "Ph.D. Students",
     "name": "Student 12",
     "position": "Ph.D. Candidate",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Student 12.jpg",
     "order": 12
   },
@@ -111,7 +124,8 @@
     "category": "Ph.D. Students",
     "name": "Student 13",
     "position": "Ph.D. Candidate",
-    "bio": "Research focus or area.",
+    "bio": "Short professional bio.",
+    "researchFocus": "Details about research focus.",
     "photo": "/images/people/Student 13.jpg",
     "order": 13
   },

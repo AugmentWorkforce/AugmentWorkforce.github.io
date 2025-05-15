@@ -17,6 +17,9 @@ export default function Person({ member }) {
         <h3 className="text-xl font-semibold text-white">{member.name}</h3>
         <p className="text-sm text-gray-400">{member.position}</p>
         <p className="text-foreground-secondary mt-2">{member.bio}</p>
+        {member.researchFocus && (
+          <p className="text-foreground-secondary mt-2">Research Focus: {member.researchFocus}</p>
+        )}
         {/* Links Buttons */}
         <div className="mt-4 flex flex-wrap gap-1">
           {member.website && (
