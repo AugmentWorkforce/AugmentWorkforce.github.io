@@ -50,7 +50,7 @@ export default function Home() {
             className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[4%] left-[52.5%] md:top-[50%] md:left-[65%]"
           >
             <Image
-              src="/images/SPOT1.jpg"
+              src="/images/hololense1.jpg"
               alt="Workforce Augmentation Lab research example 2"
               fill
               className="object-cover rounded-full"
@@ -60,7 +60,7 @@ export default function Home() {
             className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[35%] left-[2.5%] md:top-[10%] md:left-[35%]"
           >
             <Image
-              src="/images/EXO.stand1.jpg"
+              src="/images/VO2.jpg"
               alt="Workforce Augmentation Lab research example 3"
               fill
               className="object-cover rounded-full"
@@ -70,7 +70,7 @@ export default function Home() {
             className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[35%] left-[52.5%] md:top-[50%] md:left-[5%]"
           >
             <Image
-              src="/images/robotic.arm1.jpg"
+              src="/images/EXO.stand1.jpg"
               alt="Workforce Augmentation Lab research example 4"
               fill
               className="object-cover rounded-full"
@@ -80,7 +80,7 @@ export default function Home() {
             className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[66%] left-[2.5%] md:top-[10%] md:left-[65%]"
           >
             <Image
-              src="/images/hololense1.jpg"
+              src="/images/SPOT1.jpg"
               alt="Workforce Augmentation Lab research example 5"
               fill
               className="object-cover rounded-full"
@@ -90,7 +90,7 @@ export default function Home() {
             className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[66%] left-[52.5%] md:top-[50%] md:left-[35%]"
           >
             <Image
-              src="/images/image6.jpg"
+              src="/images/robotic.arm1.jpg"
               alt="Workforce Augmentation Lab research example 6"
               fill
               className="object-cover rounded-full"
