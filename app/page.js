@@ -35,10 +35,10 @@ export default function Home() {
         </div>
 
         {/* Right: Photo Collage */}
-        <div className="relative w-full max-w-xl aspect-[4/3] mx-auto">
+        <div className="relative w-full max-w-xl aspect-[3/2] mx-auto">
           <div
-            className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '10%', left: '10%' }}
+            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+            style={{ top: '10%', left: '5%' }}
           >
             <Image
               src="/images/simulator1.jpg"
@@ -48,8 +48,8 @@ export default function Home() {
             />
           </div>
           <div
-            className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '48%', left: '50%' }}
+            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+            style={{ top: '50%', left: '65%' }}
           >
             <Image
               src="/images/SPOT1.jpg"
@@ -59,8 +59,8 @@ export default function Home() {
             />
           </div>
           <div
-            className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '10%', left: '40%' }}
+            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+            style={{ top: '10%', left: '35%' }}
           >
             <Image
               src="/images/EXO.stand1.jpg"
@@ -70,12 +70,34 @@ export default function Home() {
             />
           </div>
           <div
-            className="photo-collage absolute w-[35%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '48%', left: '20%' }}
+            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+            style={{ top: '50%', left: '5%' }}
           >
             <Image
               src="/images/robotic.arm1.jpg"
               alt="Workforce Augmentation Lab research example 4"
+              fill
+              className="object-cover rounded-full"
+            />
+          </div>
+          <div
+            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+            style={{ top: '10%', left: '65%' }}
+          >
+            <Image
+              src="/images/image5.jpg"
+              alt="Workforce Augmentation Lab research example 5"
+              fill
+              className="object-cover rounded-full"
+            />
+          </div>
+          <div
+            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
+            style={{ top: '50%', left: '35%' }}
+          >
+            <Image
+              src="/images/image6.jpg"
+              alt="Workforce Augmentation Lab research example 6"
               fill
               className="object-cover rounded-full"
             />
