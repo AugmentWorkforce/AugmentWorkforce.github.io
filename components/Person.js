@@ -4,7 +4,7 @@ export default function Person({ member }) {
   const imageSize = member.category === 'Faculty' ? 'w-48 h-48' : 'w-35 h-35';
 
   return (
-    <div className="bg-[#1a1a1a] p-4 rounded-lg shadow-md border-1 border-neutral-800 flex gap-4">
+    <div className="bg-[#1a1a1a] p-4 rounded-lg shadow-md border-1 border-neutral-800 flex flex-col md:flex-row items-start md:items-start gap-4">
       <div className={`relative ${imageSize} flex-shrink-0`}>
         <Image
           src={member.photo}
