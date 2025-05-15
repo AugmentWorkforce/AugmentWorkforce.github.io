@@ -80,7 +80,7 @@ export default function Home() {
             className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[66%] left-[2.5%] md:top-[10%] md:left-[65%]"
           >
             <Image
-              src="/images/image5.jpg"
+              src="/images/hololense1.jpg"
               alt="Workforce Augmentation Lab research example 5"
               fill
               className="object-cover rounded-full"
