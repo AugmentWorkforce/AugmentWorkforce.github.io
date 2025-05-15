@@ -35,10 +35,9 @@ export default function Home() {
         </div>
 
         {/* Right: Photo Collage */}
-        <div className="relative w-full max-w-xl aspect-[3/2] mx-auto">
+        <div className="relative w-full max-w-xl mx-auto aspect-[2/3] md:aspect-[3/2]">
           <div
-            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '10%', left: '5%' }}
+            className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[4%] left-[2.5%] md:top-[10%] md:left-[5%]"
           >
             <Image
               src="/images/simulator1.jpg"
@@ -48,8 +47,7 @@ export default function Home() {
             />
           </div>
           <div
-            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '50%', left: '65%' }}
+            className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[4%] left-[52.5%] md:top-[50%] md:left-[65%]"
           >
             <Image
               src="/images/SPOT1.jpg"
@@ -59,8 +57,7 @@ export default function Home() {
             />
           </div>
           <div
-            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '10%', left: '35%' }}
+            className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[35%] left-[2.5%] md:top-[10%] md:left-[35%]"
           >
             <Image
               src="/images/EXO.stand1.jpg"
@@ -70,8 +67,7 @@ export default function Home() {
             />
           </div>
           <div
-            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '50%', left: '5%' }}
+            className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[35%] left-[52.5%] md:top-[50%] md:left-[5%]"
           >
             <Image
               src="/images/robotic.arm1.jpg"
@@ -81,8 +77,7 @@ export default function Home() {
             />
           </div>
           <div
-            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '10%', left: '65%' }}
+            className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[66%] left-[2.5%] md:top-[10%] md:left-[65%]"
           >
             <Image
               src="/images/image5.jpg"
@@ -92,8 +87,7 @@ export default function Home() {
             />
           </div>
           <div
-            className="photo-collage absolute w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden"
-            style={{ top: '50%', left: '35%' }}
+            className="photo-collage absolute w-[45%] md:w-[30%] aspect-square rounded-full border-4 border-transparent overflow-hidden top-[66%] left-[52.5%] md:top-[50%] md:left-[35%]"
           >
             <Image
               src="/images/image6.jpg"
