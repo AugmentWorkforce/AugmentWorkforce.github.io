@@ -21,6 +21,14 @@
   },
   {
     "category": "Ph.D. Students",
+    "name": "Sueed Willoughby",
+    "position": "Ph.D. Candidate",
+    "bio": "Research focus or area.",
+    "photo": "/images/people/Sueed.jpg",
+    "order": 2
+  },
+  {
+    "category": "Ph.D. Students",
     "name": "Fatemeh (Monica) Ghafari",
     "position": "Ph.D. Candidate",
     "bio": "Research focus or area.",
@@ -34,14 +42,6 @@
     "bio": "Research focus or area.",
     "photo": "/images/people/Ehsan.Shou.jpg",
     "order": 4
-  },
-  {
-    "category": "Ph.D. Students",
-    "name": "Sueed Willoughby",
-    "position": "Ph.D. Candidate",
-    "bio": "Research focus or area.",
-    "photo": "/images/people/Sueed.jpg",
-    "order": 2
   },
   {
     "category": "Ph.D. Students",

@@ -30,7 +30,7 @@ export default function Home() {
             Workforce Augmentation Lab
           </h1>
           <p className="text-lg text-foreground-secondary">
-            The Workforce Augmentation Lab at LSU&apos;s Department of Construction Management pioneers the integration of advanced robotics, AI, and wearable technologies to empower workers and redefine productivity in high-risk industries like construction. Our research focuses on designing intelligent systems that collaborate seamlessly with humans, enhancing physical and cognitive capabilities while prioritizing safety, ergonomics, and energy efficiency. By merging sensor-driven automation, real-time hazard mitigation, and data-driven workflows, we create adaptive tools and environments that reduce injuries, optimize resource use, and elevate workforce potential. Committed to human-centric innovation, the lab bridges engineering, occupational health, and machine learning to foster safer, smarter, and more sustainable industries for tomorrow&apos;s workforce.
+            The Workforce Augmentation Lab at LSU&apos;s Bert S. Turner Department of Construction Management pioneers the integration of advanced robotics, AI, and wearable technologies to empower workers and redefine productivity in high-risk industries like construction. Our research focuses on designing intelligent systems that collaborate seamlessly with humans, enhancing physical and cognitive capabilities while prioritizing safety, ergonomics, and energy efficiency. By merging sensor-driven automation, real-time hazard mitigation, and data-driven workflows, we create adaptive tools and environments that reduce injuries, optimize resource use, and elevate workforce potential. Committed to human-centric innovation, the lab bridges engineering, occupational health, and machine learning to foster safer, smarter, and more sustainable industries for tomorrow&apos;s workforce.
           </p>
         </div>
 
@@ -41,7 +41,7 @@ export default function Home() {
             style={{ top: '10%', left: '10%' }}
           >
             <Image
-              src="/images/intro1.png"
+              src="/images/simulator1.jpg"
               alt="Workforce Augmentation Lab research example 1"
               fill
               className="object-cover rounded-full"
@@ -52,7 +52,7 @@ export default function Home() {
             style={{ top: '48%', left: '50%' }}
           >
             <Image
-              src="/images/intro2.png"
+              src="/images/SPOT1.jpg"
               alt="Workforce Augmentation Lab research example 2"
               fill
               className="object-cover rounded-full"
@@ -63,7 +63,7 @@ export default function Home() {
             style={{ top: '10%', left: '40%' }}
           >
             <Image
-              src="/images/intro3.png"
+              src="/images/EXO.stand1.jpg"
               alt="Workforce Augmentation Lab research example 3"
               fill
               className="object-cover rounded-full"
@@ -74,7 +74,7 @@ export default function Home() {
             style={{ top: '48%', left: '20%' }}
           >
             <Image
-              src="/images/intro4.png"
+              src="/images/robotic.arm1.jpg"
               alt="Workforce Augmentation Lab research example 4"
               fill
               className="object-cover rounded-full"
