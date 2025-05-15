@@ -17,11 +17,7 @@
     "position": "Ph.D. Candidate",
     "bio": "Research focus or area.",
     "photo": "/images/people/Ehsan.Ahmadi.jpeg",
-    "order": 1,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 1
   },
   {
     "category": "Ph.D. Students",
@@ -29,11 +25,7 @@
     "position": "Ph.D. Candidate",
     "bio": "Research focus or area.",
     "photo": "/images/people/Fatemeh.jpg",
-    "order": 2,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 3
   },
   {
     "category": "Ph.D. Students",
@@ -41,11 +33,7 @@
     "position": "Ph.D. Student",
     "bio": "Research focus or area.",
     "photo": "/images/people/Ehsan.Shou.jpg",
-    "order": 3,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 4
   },
   {
     "category": "Ph.D. Students",
@@ -53,11 +41,7 @@
     "position": "Ph.D. Candidate",
     "bio": "Research focus or area.",
     "photo": "/images/people/Sueed.jpg",
-    "order": 4,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 2
   },
   {
     "category": "Ph.D. Students",
@@ -65,11 +49,7 @@
     "position": "Ph.D. Candidate",
     "bio": "Research focus or area.",
     "photo": "/images/people/obi.jpeg",
-    "order": 5,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 5
   },
     {
     "category": "Ph.D. Students",
@@ -77,11 +57,7 @@
     "position": "Ph.D. Student",
     "bio": "Research focus or area.",
     "photo": "/images/people/Khan.png",
-    "order": 6,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 6
   },
     {
     "category": "Ph.D. Students",
@@ -89,11 +65,7 @@
     "position": "Ph.D. Student",
     "bio": "Research focus or area.",
     "photo": "/images/people/Maryam.png",
-    "order": 7,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 7
   },
     {
     "category": "Ph.D. Students",
@@ -101,11 +73,7 @@
     "position": "Ph.D. Student",
     "bio": "Research focus or area.",
     "photo": "/images/people/Mahdi.png",
-    "order": 8,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 8
   },
     {
     "category": "Ph.D. Students",
@@ -113,11 +81,7 @@
     "position": "Ph.D. Student",
     "bio": "Research focus or area.",
     "photo": "/images/people/Asif.png",
-    "order": 9,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 9
   },
     {
     "category": "Ph.D. Students",
@@ -125,11 +89,7 @@
     "position": "Ph.D. Student",
     "bio": "Research focus or area.",
     "photo": "/images/people/Ben.jpeg",
-    "order": 10,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 10
   },
     {
     "category": "Ph.D. Students",
@@ -137,11 +97,7 @@
     "position": "Ph.D. Student",
     "bio": "Research focus or area.",
     "photo": "/images/people/Mona.jpg",
-    "order": 11,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 11
   },
     {
     "category": "Ph.D. Students",
@@ -149,11 +105,7 @@
     "position": "Ph.D. Candidate",
     "bio": "Research focus or area.",
     "photo": "/images/people/Student 12.jpg",
-    "order": 12,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 12
   },
     {
     "category": "Ph.D. Students",
@@ -161,31 +113,55 @@
     "position": "Ph.D. Candidate",
     "bio": "Research focus or area.",
     "photo": "/images/people/Student 13.jpg",
-    "order": 13,
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "googleScholar": "https://scholar.google.com/citations?user=YourID",
-    "website": "https://yourwebsite.com",
-    "cv": "/pdfs/cv/your_cv.pdf"
+    "order": 13
   },
   {
     "category": "Alumni",
-    "name": "Full Name",
+    "name": "Shashank Muley",
     "degree": "Ph.D.",
-    "year": "Year",
+    "year": "2024",
     "affiliations": ["Affiliation 1"]
   },
   {
     "category": "Alumni",
-    "name": "Full Name",
+    "name": "Lillie Carpenter",
     "degree": "Master's",
-    "year": "Year",
+    "year": "2024",
+    "affiliations": ["Affiliation 1"]
+  },
+  {
+    "category": "Alumni",
+    "name": "Laleh Ghanbari",
+    "degree": "Ph.D.",
+    "year": "2022",
     "affiliations": ["Affiliation 1", "Affiliation 2"]
   },
   {
     "category": "Alumni",
-    "name": "Full Name",
+    "name": "Damian Allen",
+    "degree": "Master's",
+    "year": "2022",
+    "affiliations": ["Affiliation 1"]
+  },
+  {
+    "category": "Alumni",
+    "name": "Yahmaine Ford",
+    "degree": "Master's",
+    "year": "2022",
+    "affiliations": ["Affiliation 1"]
+  },
+  {
+    "category": "Alumni",
+    "name": "Srikanth Sagar Bangaru",
     "degree": "Ph.D.",
-    "year": "Year",
+    "year": "2021",
+    "affiliations": ["Affiliation 1"]
+  },
+  {
+    "category": "Alumni",
+    "name": "Heng Gao",
+    "degree": "Master's",
+    "year": "2021",
     "affiliations": ["Affiliation 1"]
   }
 ]
